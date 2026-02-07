@@ -10,7 +10,7 @@
 
 ### Homepage Preview
 
-![Homepage Screenshot](./assets/preview.png)
+![Homepage Screenshot](./assets/preview.jpeg)
 
 ## 📋 Assignment Guidelines
 
