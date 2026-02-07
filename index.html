@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devtool-Tool-Landing-Page</title>
+    <!-- <link rel="icon" type="image/x-icon" href="/assets/Icon.png"> -->
+    <title>Dev Tool Landing Page - Cursor</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <style>
+        #navbar{
+            display: flex;
+            justify-content: space-between;
+           
+            /* background-color:#cdcdcd; */
+             font-family: I'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+        .nav-icon{
+            display: flex;
+        }
+        #nav-child{
+            padding: 10px;
+        }
+        #nav-child-centre a{
+            text-decoration: none;
+            list-style: none;
+            padding: 10px;
+            color: black;
+            
+        }
+        #nav-child-centre{
+            padding-top: 15px;
+        }
+        #nav-child-right button{
+            border-radius: 8px;
+            padding: 5px 15px;
+            border: none;
+            
+        }
+        .main{background-color:white;}
+        .download-button button{
+            padding: 15px 25px;
+            background-color: black;
+            color: white;
+             border-radius: 15px;
+             border: none;
+             font-size: 20px;
+        }
+        .image{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 50px;
+            
+        }
+        .text-top{
+            padding: 20px;
+        }
+        .middle-text{
+            display: flex;
+            justify-content: center;
+        }
+        .logo{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 200px;
+            margin-top: 10px;
+        }
+        .logo-card{
+            background-color: #cdcdcd;
+            border-radius: 2px;
+            padding: 5px;
+        }
+        .card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background:#cdcdcd;
+            padding: 50px;
+            margin: 20px;
+            border-radius: 5px;
+            gap: 15px;
+        }
+        .testimonial-card{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            
+        }
+        .user{
+            display: flex;
+            gap: 10px;
+        }
+        
+        .card-2{
+            background-color: #cdcdcd;
+            margin:10px;
+            padding: 20px;
+            width: 400px;
+            height: 200px;
+            
+
+            
+        }
+        
+        .content-text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+        }
+        .middle-card{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .card-3{
+            background-color:#cdcdcd;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 30px;
+            width: 600px;
+            height: 400px;
+        }
+        .changelog-card{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+        .card-4{
+            background-color: #cdcdcd;
+            margin:20px ;
+            padding: 20px;
+            border-radius: 5px;
+            width: 300px;
+            height: 200px;
+        }
+        .joinus{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .joinus-content{
+            margin: 20px;
+        }
+        .joinus-btn{
+            
+            padding: 5px 15px;
+            background-color: black;
+            color: white;
+            border-radius: 8px;
+            
+        }
+        .joinus-img{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 25px;
+        }
+        .blogs-content{
+            display: flex;
+            
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 50px;
+        }
+       
+        .card-5{
+            background-color: #cdcdcd;
+            border-radius: 5px;
+            margin: 10px;
+            padding: 10px;
+        }
+        .end-content{
+            display: flex;
+            flex-direction: column;
+            
+            align-items: center;
+            
+            /* margin: 30px;
+            padding: 30px 10px; */
+        }
+        .footer-content{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: #cdcdcd;
+            margin-top: 50px;
+        }
+        .footer-text ul{
+            list-style: none;
+            text-decoration: none;
+            padding: 10px;
+        }
+        .footer-text ul a{
+            text-decoration: none;
+            
+
+        }
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .footer-options label {
+            
+            padding: 5px 14px;
+            border-radius: 20px;
+            margin: 5px;
+        }
+        .footer-options label span {
+            margin: 5px;
+        }
+        
+    </style> -->
+</head>
+<body>
+    
+    <nav id="navbar">
+        <div class="nav-icon">
+            <div id="nav-child">
+            <img class="icon"width="25px"height="25px" src="./assets/Icon.png" alt="Cursor App Icon" />
+            </div>
+            <div>
+                <p><strong>Cursor</strong></p>
+            </div>
+            
+        </div>
+        <div id="nav-child">
+            <div id="nav-child-centre">
+            <a href="#">Features</a>
+            <a href="#">Enterprise</a>
+            <a href="#">Pricing</a>
+            <a href="#">Resources</a>
+            </div>
+        </div>
+        <div id="nav-child">
+            <div id="nav-child-right">
+                <button style="background-color:  white; color: black;">Sign In</button>
+                <button style="background-color: black;color: white; ">Download</button>
+            </div>
+        </div>
+    </nav>
+    <main class="main">
+        <div class="text-top">
+            <h1>
+                Built to make you extraordinarily productive, <br>Cursor is the best way to code with AI.
+            </h1>
+            <div class="download-button">
+                <button>Download for Windows</button>
+            </div>
+            <div class="image">
+                <img width="90%"src="./assets/startimage.png" alt="">
+            </div>
+        </div>
+        <div class="middle">
+           <div class="middle-text">
+            <h3>Trusted every day by millions of professional developers</h3>
+           </div>
+           <div class="logo">
+            <div class="logo-card">
+               <img width="150px" height="75px"src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/logos/stripe-logo.svg" alt="Stripe" />
+            </div>
+            <div class="logo-card">
+                <img width="150px" height="75px"src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/logos/openai-logo.svg" alt="OpenAI" />
+            </div>
+            <div class="logo-card">
+                 <img width="150px" height="75px" src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/logos/linear-logo.svg" alt="Linear" />
+            </div>
+
+            <div class="logo-card">
+                 <img width="150px" height="75px"src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/logos/datadog-logo.svg" alt="Datadog" />
+            </div>
+
+            <div class="logo-card">
+                 <img width="150px" height="75px"src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/logos/nvidia-logo.svg" alt="NVIDIA" />
+            </div>
+
+            <div class="logo-card">
+                  <img width="150px" height="75px"src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/logos/figma-logo.svg" alt="Figma" />
+             </div>
+
+            <div class="logo-card">
+                 <img width="150px" height="75px" src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/logos/ramp-logo.svg" alt="Ramp" />
+            </div>
+
+            <div class="logo-card">
+                 <img width="150px" height="75px" src="https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/logos/adobe-logo.svg" alt="Adobe" />
+            </div>
+            
+           </div>
+
+        </div>
+        <section>
+            <div class="card-class">
+                <div class="card">
+                    <div class="card-text">
+                    <h2 style="color: #3e3e3e;">Agent turns ides into code</h2>
+                    <p style="font-size: 30px; color: darkgray;">A human-AI programmer, orders of magnitude more effective than any developer alone.</p>
+                    <a href="#" style="color: red; text-decoration: none;font-size: 15px;">Learn about Agent →</a>
+                    </div>
+                    <img width="60%"heigth="80%" src="./assets/image01.png" alt="src">
+                    
+                </div>
+                <div class="card">
+                    
+                    <img width="60%"heigth="80%"src="./assets/image02.png" alt="src">
+                    <div class="card-text">
+                    <h2>Magically accurate autocomplete</h2>
+                    <p style="color: darkgrey;font-size: 30px;">Our custom Tab model predicts your next action with striking speed and precision</p>
+                    <a  style="color: red; text-decoration: none;font-size: 15px;"href="#">Learn about Tab →</a>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="crd-text">
+                        <h2>Everywhere software gets built</h2>
+                        <p style="font-size: 30px; color: darkgrey;">
+                            Cursor is in GitHub reviewing your PRs, a teammate in Slack, and anywhere else you work.
+                        </p>
+                        <a style="color: red; text-decoration: none;font-size: 15px;" href="#">Learn about Cursor's ecosystem →</a>
+                    </div>
+                    
+                    <img width="60%"heigth="80%" src="./assets/image03.png" alt="src">
+                    
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="content">
+                <h2 >The new way to build software.</h2>
+                <div class="testimonial-card">
+                    <div class="card-2">
+                        <p>It was night and day from one batch to another, adoption went from single digits to over 80%.
+                             It just spread like wildfire, all the best builders were using Cursor.</p>
+                        <div class="user">
+                            <img src="./assets/user1.webp" alt="">
+                            <div class="bio" >
+                                <strong>Diana Hu</strong><br>
+                                <span class="title">General Partner, Y Combinator</span>
+                            </div>
+
+
+                        </div>     
+                    </div>
+                    <div class="card-2">
+                        <p>
+                            The most useful AI tool that I currently pay for, hands down, is Cursor. It's fast, autocompletes
+                            when and where you need it to, handles brackets properly, sensible keyboard shortcuts,
+                            bring-your-own-model... everything is well put together.
+                        </p>
+                        <div class="user">
+                            <img src="./assets/user4.webp" alt="">
+                            <div class="bio">
+                                <strong>shadcn</strong><br>
+                                <span class="title">Creator of shadcn/uir</span>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="card-2">
+                        <p>
+                           Cursor quickly grew from hundreds to thousands of extremely enthusiastic Stripe employees. We spend
+                           more on R&D and software creation than any other undertaking, and there's significant economic
+                           outcomes when making that process more efficient and productive. 
+                        </p>
+                        <div class="user">
+                            <img src="./assets/user2.webp" alt="">
+                            <div class="bio">
+                                <strong>Patrick Collison</strong><br>
+                                <span class="title">Co-Founder & CEO, Stripe</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-2">
+                        <p>
+                            The best LLM applications have an autonomy slider: you control how much independence to give the AI.
+                            In Cursor, you can do Tab completion, Cmd+K for targeted edits, or you can let it rip with the full
+                            autonomy agentic version.
+                        </p>
+                        <div class="user">
+                            <img src="./assets/user3.webp" alt="">
+                            <div class="bio">
+                                <strong>Andrej Karpathy</strong><br>
+                                <span class="title">CEO, Eureka Labs</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-2">
+                        <p>
+                           It's official. I hate vibe coding. I love Cursor tab coding. It's wild.
+                        </p>
+                        <div class="user">
+                            <img src="./assets/user5.webp" alt="">
+                            <div class="bio">
+                                <strong>ThePrimeagen</strong><br>
+                                <span class="title">@ThePrimeagen</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-2">
+                        <p>
+                           It's definitely becoming more fun to be a programmer. It's less about digging through pages and more
+                           about what you want to happen. We are at the 1% of what's possible, and it's in interactive
+                           experiences like Cursor where models like GPT-5 shine brightest.
+                        </p>
+                        <div class="user">
+                            <img src="./assets/user6.webp" alt="">
+                            <div class="bio">
+                                <strong>Greg Brockman</strong><br>
+                                <span class="title">President, OpenAI</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="middle-content">
+                <div class="content-text">
+                    <h2>Stay on the frontier</h2>
+                </div>
+                <div class="middle-card">
+                    <div class="card-3">
+                        <h3>Access the best models</h3>
+                        <p>
+                            Choose between every cutting-edge model from OpenAI, Anthropic, Gemini, and xAI.
+                        </p>
+                        <a href="#" style="color: red; text-decoration: none;">Explore models</a>
+                        <img width="75%" height="60%" src="./assets/image04.png" alt="">
+
+                    </div>
+                    <div class="card-3">
+                        <h3>Complete codebase understanding</h3>
+                        <p>
+                            Cursor learns how your codebase works, no matter the scale or complexity.
+                        </p>
+                        <a href="#" style="color: red; text-decoration: none;">Learn about semantic search </a>
+                        <img width="60%" height="60%"src="./assets/image05.png" alt="">
+
+                    </div>
+                    <div class="card-3">
+                        <h3>Develop enduring software</h3>
+                        <p>
+                            Trusted by over half of the Fortune 500 to accelerate development, securely and at scale.
+                        </p>
+                        <a href="#" style="color:red; text-decoration: none;">Explore enterprise </a>
+                        <img  width="70%" height="60%" src="./assets/image06.png" alt="">
+
+                    </div>
+
+                </div>
+                
+            </div>
+        </section>
+        <section>
+            <div class="changelog">
+                <div class="changelog-text">
+                    <h2>Changelog</h2>
+                </div>
+                <div class="changelog-card">
+                    <div class="card-4">
+                        <p>2.4</p>
+                        <time datetime="">Jan 30,2026</time>
+                        <p>Subagents, Skills, and Image Generation</p>
+                       
+
+                    </div>
+                    <div class="card-4">
+                        <time datetime="">Jan 25,2026</time>
+                        <p>
+                           CLI Agent Modes and Cloud Handoff
+                        
+                        </p>
+                        
+
+                    </div>
+                    <div class="card-4">
+                        <time datetime="">Jan 20,2026</time>
+                        
+                        <p>New CLI Features and Improved CLI Performance</p>
+
+                    </div>
+                    <div class="card-4">
+                        <p>2.3</p>
+                        <time datetime="">Jan 1, 2025</time>
+                        <p>Layout Customization and Stability Improvements</p>
+
+                    </div>
+
+                </div>
+                <a href="" style="color: red;text-decoration: none;font-size: 15px;">See what's new in Cursor →</a>
+                
+            </div>
+        </section>
+        <section>
+            <div class="joinus">
+                <div class="joinus-content">
+                    <h1>Cursor is an applied team focused <br> on building the future of coding. </h1>
+                    <button class="joinus-btn">Join us</button>
+                   
+
+                </div>
+                <div class="joinus-img">
+                     <img width="75%"height="70%"src="./assets/lastimage.webp" alt="">
+                </div>
+
+            </div>
+
+        </section>
+        <section>
+            <div class="blogs-content">
+                <div class="blogs-text">
+                    <h3>Recent Highlights</h3>
+
+                </div>
+                <div class="blogs-card">
+                    <div class="card-5">
+                        <h3>Introducing Cursor 2.0 and Composer</h3>
+                        <p>A new interface and our first coding model, 
+                            both purpose-built for working with agents.</p>
+                        <p>Product · Oct 29, 2025</p>
+
+                    </div>
+                    <div class="card-5">
+                        <h3>Improving Cursor Tab with online RL</h3>
+                        <p>Our new Tab model makes 21% fewer suggestions while having 28% higher accept rate.</p>
+                        <p>Research · Sep 12, 2025</p>
+
+                    </div>
+                    <div class="card-5">
+                        <h3>1.5x faster MoE training with custom MXFP8 kernels</h3>
+                        <p>Achieving a 3.5x MoE layer speedup with a complete rebuild for Blackwell GPUs.</p>
+                        <p>Research · Aug 29, 2025</p>
+
+                    </div>
+                    <a href="#" style="color: red;text-decoration: none;">View more posts</a>
+                </div>
+                
+
+            </div>
+        </section>
+        <section>
+            <div class="end-content">
+                <div class="end-text">
+                    
+                    <p style="font-size: 50px; padding-left: 0;"><strong>Try Cursor Now.</strong>
+                        
+                    </p>
+
+                    
+                </div>
+                <div class="download-button">
+                    <button class="download-button">Download for Windows</button>
+                </div>
+            </div>
+        </section>
+        <footer class="site-footer">
+            <div class="footer-container">
+                <nav class="footer-content">
+                    <div class="footer-text">
+                        <h3>Product</h3>
+                        <ul>
+                            <li><a href="#">features</a></li>
+                            <li><a href="#">Enterprise</a></li>
+                            <li><a href="#">Web Agents</a></li>
+                            <li><a href="#">Bugbot</a></li>
+                            <li><a href="#">CLI</a></li>
+                            <li><a href="#">Pricing</a></li>
+                        </ul>
+                        
+                        
+                    </div>
+                    <div class="footer-text">
+                        <h3>Resources</h3>
+                        <ul>
+                            <li><a href="#">Download</a></li>
+                            <li><a href="#">Changelog</a></li>
+                            <li><a href="#">Docs</a></li>
+                            <li><a href="#">Learn</a></li>
+                            <li><a href="#">Forum</a></li>
+                            <li><a href="#">Status</a></li>
+                        </ul>
+                        
+                        
+                    </div>
+                    <div class="footer-text">
+                         <h3>Company</h3>
+                        <ul>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Community</a></li>
+                            <li><a href="#">Workshops</a></li>
+                            <li><a href="#">Students</a></li>
+                            <li><a href="#">Brand</a></li>
+                        </ul>
+                        
+                    </div>
+                        
+                    <div class="footer-text">
+                        <h3>Legal</h3>
+                        <ul>
+                           <li><a href="#">Terms of Service</a></li>
+                           <li><a href="#">Privacy Policy</a></li>
+                           <li><a href="#">Data Use</a></li>
+                           <li><a href="#">Security</a></li>
+                        </ul> 
+                       
+                    </div>
+                    <div class="footer-text">
+                         <h3>Connectt</h3>
+                        
+                        <ul>
+                             <li><a href="#">X</a></li>
+                             <li><a href="#">LinkedIn</a></li>
+                             <li><a href="#">YouTube</a></li>
+                        </ul>
+                        
+                    </div>
+                </nav>
+            </div>
+            <div class="footer-bottom">
+            <p>© 2026 Cursor • SOC 2 Certified</p>
+            <div class="footer-options">
+                <label>
+                    <span>모</span>
+                    <span>☼</span>
+                    <span>☾</span>
+                </label>
+                <label>🌏︎ English </label>
+            </div>
+            </div>
+
+        </footer>
+        
+</body>
+</html>
